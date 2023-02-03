@@ -91,7 +91,7 @@ services:
         # This will by default install into /usr/share/confluent-hub-components/ so make
         #  sure that this path is added to the plugin.path in the environment variables 
         confluent-hub install --no-prompt couchbase/kafka-connect-couchbase:4.1.7 
-        confluent-hub install confluentinc/kafka-connect-oracle-cdc:2.3.0
+        confluent-hub install --no-prompt confluentinc/kafka-connect-oracle-cdc:2.3.0
         # Launch the Kafka Connect worker
         /etc/confluent/docker/run &
         # Don't exit
