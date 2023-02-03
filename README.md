@@ -1,4 +1,4 @@
-# From SQL to NoSQL streaming
+# From Oracle SQL to NoSQL streaming
 
 ## Stream to standard Couchbase server
 Prerequisite:
